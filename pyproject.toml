@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-bot"
+version = "0.1"
+description = "Personal assistant bot"
+authors = ["Mykhailo Fomenko"]
+license = "GoIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
